@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "figures_reviewed": [
+    "Figure_1",
+    "Figure_2",
+    "Figure_3",
+    "Figure_4",
+    "Figure_5",
+    "Figure_6",
+    "Figure_7",
+    "Figure_S1",
+    "Figure_S2",
+    "Figure_S3",
+    "Figure_S4"
+  ],
+  "figure_count": 11,
+  "raster_count": 22,
+  "font": "Times New Roman",
+  "dpi": 300,
+  "analysis_files_unchanged": {
+    "clean_data.npz": true,
+    "variable_selection.csv": true,
+    "preprocessing.csv": true,
+    "predictions.csv": true,
+    "split_summary.csv": true,
+    "selection_details.json": true,
+    "ablation.csv": true,
+    "run_summary.json": true
+  },
+  "visual_checks": {
+    "white_background": true,
+    "four_spines_and_inward_ticks": true,
+    "labels_and_legend_clear": true,
+    "no_clipped_labels": true,
+    "selection_markers_follow_calibration_CV": true,
+    "SPXY_only_partition": true,
+    "raw_variables": 141,
+    "predicted_reference_lines": "descriptive fits only"
+  },
+  "changed_since_first_visual_review": [
+    "Figure_5: selection star moved to calibration RMSECV marker",
+    "Figure_S2: white text background clears vertical line"
+  ],
+  "program_sha256": "42b6062cdb5cd799ad3ed313a7e5c1849df760605c1b4d7017741cb2d23e776a",
+  "single_panel_revision": {
+    "status": "PASS",
+    "figures": [
+      "Figure_4",
+      "Figure_7",
+      "Figure_S4"
+    ],
+    "letters_removed": true,
+    "main_page_images_inspected": [
+      9,
+      12
+    ],
+    "supplement_page_images_inspected": [
+      3
+    ],
+    "all_other_raster_figures_unchanged": true,
+    "numeric_results_unchanged": true
+  }
+}

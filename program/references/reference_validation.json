@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "reference_count": 27,
+  "doi_reference_count": 27,
+  "publisher_url_only_records": [],
+  "citation_order_source": "document_assets/manuscript_content.json",
+  "ris_xml_keys_and_numbers_match": true,
+  "metadata_unchanged": true,
+  "removed_selector_key_absent": true,
+  "endnote_format": "RIS and XML exchange files for EndNote import"
+}

@@ -1,0 +1,53 @@
+1. Wu, Y.-Y.; Gao, L.-W.; Tang, Y.-J.; Hu, B.; Hu, Y.-L.; Zhang, Y.-B.; Zhou, G.-X. Eight new C21-steroidal glycosides from the roots of Cynanchum auriculatum. Fitoterapia 2025, 183, 106519. https://doi.org/10.1016/j.fitote.2025.106519
+
+2. Qian, X.; Li, B.; Li, P.; Wang, D.; Dai, W.; Zhang, M. C21 steroidal glycosides from Cynanchum auriculatum and their neuroprotective effects against H2O2-induced damage in PC12 cells. Phytochemistry 2017, 140, 1–15. https://doi.org/10.1016/j.phytochem.2017.04.014
+
+3. Wang, L.; Cai, F.; Zhao, W.; Tian, J.; Kong, D.; Sun, X.; Liu, Q.; Chen, Y.; An, Y.; Wang, F.; Liu, X.; Wu, Y.; Zhou, H. Cynanchum auriculatum Royle ex Wight., Cynanchum bungei Decne. and Cynanchum wilfordii (Maxim.) Hemsl.: Current Research and Prospects. Molecules 2021, 26, 7065. https://doi.org/10.3390/molecules26237065
+
+4. Manley, M. Near-infrared spectroscopy and hyperspectral imaging: non-destructive analysis of biological materials. Chem. Soc. Rev. 2014, 43, 8200–8214. https://doi.org/10.1039/c4cs00062e
+
+5. Beć, K.B.; Grabska, J.; Huck, C.W. Miniaturized NIR Spectroscopy in Food Analysis and Quality Control: Promises, Challenges, and Perspectives. Foods 2022, 11, 1465. https://doi.org/10.3390/foods11101465
+
+6. Beć, K.B.; Grabska, J.; Huck, C.W. Principles and Applications of Miniaturized Near‐Infrared (NIR) Spectrometers. Chem. Eur. J. 2021, 27, 1514–1532. https://doi.org/10.1002/chem.202002838
+
+7. Pasquini, C. Near infrared spectroscopy: A mature analytical technique with new perspectives – A review. Anal. Chim. Acta 2018, 1026, 8–36. https://doi.org/10.1016/j.aca.2018.04.004
+
+8. Curran, P.J. Remote sensing of foliar chemistry. Remote Sens. Environ. 1989, 30, 271–278. https://doi.org/10.1016/0034-4257(89)90069-2
+
+9. Rinnan, Å.; van den Berg, F.; Engelsen, S.B. Review of the most common pre-processing techniques for near-infrared spectra. TrAC Trends Anal. Chem. 2009, 28, 1201–1222. https://doi.org/10.1016/j.trac.2009.07.007
+
+10. Wold, S.; Sjöström, M.; Eriksson, L. PLS-regression: a basic tool of chemometrics. Chemom. Intell. Lab. Syst. 2001, 58, 109–130. https://doi.org/10.1016/s0169-7439(01)00155-1
+
+11. Mehmood, T.; Liland, K.H.; Snipen, L.; Sæbø, S. A review of variable selection methods in Partial Least Squares Regression. Chemom. Intell. Lab. Syst. 2012, 118, 62–69. https://doi.org/10.1016/j.chemolab.2012.07.010
+
+12. Zou, X.; Zhao, J.; Povey, M.J.W.; Holmes, M.; Mao, H. Variables selection methods in near-infrared spectroscopy. Anal. Chim. Acta 2010, 667, 14–32. https://doi.org/10.1016/j.aca.2010.03.048
+
+13. Kousar, J.; Yang, L.; Xiang, J.; Mao, Q.; Bian, X. Beluga Optimization Algorithm for Near-Infrared Spectral Variable Selection of Complex Samples. Foods 2025, 14, 4266. https://doi.org/10.3390/foods14244266
+
+14. Centner, V.; Massart, D.-L.; de Noord, O.E.; de Jong, S.; Vandeginste, B.M.; Sterna, C. Elimination of Uninformative Variables for Multivariate Calibration. Anal. Chem. 1996, 68, 3851–3858. https://doi.org/10.1021/ac960321m
+
+15. Cai, W.; Li, Y.; Shao, X. A variable selection method based on uninformative variable elimination for multivariate calibration of near-infrared spectra. Chemom. Intell. Lab. Syst. 2008, 90, 188–194. https://doi.org/10.1016/j.chemolab.2007.10.001
+
+16. Xu, H.; Liu, Z.; Cai, W.; Shao, X. A wavelength selection method based on randomization test for near-infrared spectral analysis. Chemom. Intell. Lab. Syst. 2009, 97, 189–193. https://doi.org/10.1016/j.chemolab.2009.04.006
+
+17. Li, H.-D.; Xu, Q.-S.; Liang, Y.-Z. libPLS: An integrated library for partial least squares regression and linear discriminant analysis. Chemom. Intell. Lab. Syst. 2018, 176, 34–43. https://doi.org/10.1016/j.chemolab.2018.03.003
+
+18. Meinshausen, N.; Bühlmann, P. Stability Selection. J. R. Stat. Soc. B Stat. Methodol. 2010, 72, 417–473. https://doi.org/10.1111/j.1467-9868.2010.00740.x
+
+19. Shah, R.D.; Samworth, R.J. Variable Selection with Error Control: Another Look at Stability Selection. J. R. Stat. Soc. B Stat. Methodol. 2013, 75, 55–80. https://doi.org/10.1111/j.1467-9868.2011.01034.x
+
+20. Galvão, R.K.H.; Araújo, M.C.U.; José, G.E.; Pontes, M.J.C.; Silva, E.C.; Saldanha, T.C.B. A method for calibration and validation subset partitioning. Talanta 2005, 67, 736–740. https://doi.org/10.1016/j.talanta.2005.03.025
+
+21. Geladi, P.; MacDougall, D.; Martens, H. Linearization and Scatter-Correction for Near-Infrared Reflectance Spectra of Meat. Appl. Spectrosc. 1985, 39, 491–500. https://doi.org/10.1366/0003702854248656
+
+22. Barnes, R.J.; Dhanoa, M.S.; Lister, S.J. Standard Normal Variate Transformation and De-Trending of Near-Infrared Diffuse Reflectance Spectra. Appl. Spectrosc. 1989, 43, 772–777. https://doi.org/10.1366/0003702894202201
+
+23. Savitzky, A.; Golay, M.J.E. Smoothing and Differentiation of Data by Simplified Least Squares Procedures. Anal. Chem. 1964, 36, 1627–1639. https://doi.org/10.1021/ac60214a047
+
+24. Torrence, C.; Compo, G.P. A Practical Guide to Wavelet Analysis. Bull. Am. Meteorol. Soc. 1998, 79, 61–78. https://doi.org/10.1175/1520-0477(1998)079<0061:apgtwa>2.0.co;2
+
+25. Bellon-Maurel, V.; Fernandez-Ahumada, E.; Palagos, B.; Roger, J.-M.; McBratney, A. Critical review of chemometric indicators commonly used for assessing the quality of the prediction of soil attributes by NIR spectroscopy. TrAC Trends Anal. Chem. 2010, 29, 1073–1081. https://doi.org/10.1016/j.trac.2010.05.006
+
+26. Feudale, R.N.; Woody, N.A.; Tan, H.; Myles, A.J.; Brown, S.D.; Ferré, J. Transfer of multivariate calibration models: a review. Chemom. Intell. Lab. Syst. 2002, 64, 181–192. https://doi.org/10.1016/s0169-7439(02)00085-0
+
+27. Wang, Y.; Veltkamp, D.J.; Kowalski, B.R. Multivariate instrument standardization. Anal. Chem. 1991, 63, 2750–2756. https://doi.org/10.1021/ac00023a016

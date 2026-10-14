@@ -1,0 +1,942 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xml>
+  <records>
+    <record>
+      <rec-number>1</rec-number>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Wu, Ya-Yu</author>
+          <author>Gao, Lan-Wen</author>
+          <author>Tang, Yu-Jun</author>
+          <author>Hu, Bo</author>
+          <author>Hu, Ya-Lin</author>
+          <author>Zhang, Yu-Bo</author>
+          <author>Zhou, Guang-Xiong</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Eight new C21-steroidal glycosides from the roots of Cynanchum auriculatum</title>
+        <secondary-title>Fitoterapia</secondary-title>
+        <alt-title>Fitoterapia</alt-title>
+      </titles>
+      <periodical>
+        <full-title>Fitoterapia</full-title>
+        <abbr-1>Fitoterapia</abbr-1>
+      </periodical>
+      <pages>106519</pages>
+      <volume>183</volume>
+      <dates>
+        <year>2025</year>
+      </dates>
+      <urls>
+        <related-urls>
+          <url>https://doi.org/10.1016/j.fitote.2025.106519</url>
+        </related-urls>
+      </urls>
+      <electronic-resource-num>10.1016/j.fitote.2025.106519</electronic-resource-num>
+      <label>cynanchum1</label>
+      <notes>Verified reference metadata. Manuscript citation [1].</notes>
+    </record>
+    <record>
+      <rec-number>2</rec-number>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Qian, Xicheng</author>
+          <author>Li, Baocai</author>
+          <author>Li, Peng</author>
+          <author>Wang, Dong</author>
+          <author>Dai, Weifeng</author>
+          <author>Zhang, Mi</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>C21 steroidal glycosides from Cynanchum auriculatum and their neuroprotective effects against H2O2-induced damage in PC12 cells</title>
+        <secondary-title>Phytochemistry</secondary-title>
+        <alt-title>Phytochemistry</alt-title>
+      </titles>
+      <periodical>
+        <full-title>Phytochemistry</full-title>
+        <abbr-1>Phytochemistry</abbr-1>
+      </periodical>
+      <pages>1-15</pages>
+      <volume>140</volume>
+      <dates>
+        <year>2017</year>
+      </dates>
+      <urls>
+        <related-urls>
+          <url>https://doi.org/10.1016/j.phytochem.2017.04.014</url>
+        </related-urls>
+      </urls>
+      <electronic-resource-num>10.1016/j.phytochem.2017.04.014</electronic-resource-num>
+      <label>cynanchum2</label>
+      <notes>Verified reference metadata. Manuscript citation [2].</notes>
+    </record>
+    <record>
+      <rec-number>3</rec-number>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Wang, Lu</author>
+          <author>Cai, Fujie</author>
+          <author>Zhao, Wei</author>
+          <author>Tian, Jinli</author>
+          <author>Kong, Degang</author>
+          <author>Sun, Xiaohui</author>
+          <author>Liu, Qing</author>
+          <author>Chen, Yueru</author>
+          <author>An, Ying</author>
+          <author>Wang, Fulin</author>
+          <author>Liu, Xue</author>
+          <author>Wu, Yi</author>
+          <author>Zhou, Honglei</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Cynanchum auriculatum Royle ex Wight., Cynanchum bungei Decne. and Cynanchum wilfordii (Maxim.) Hemsl.: Current Research and Prospects</title>
+        <secondary-title>Molecules</secondary-title>
+        <alt-title>Molecules</alt-title>
+      </titles>
+      <periodical>
+        <full-title>Molecules</full-title>
+        <abbr-1>Molecules</abbr-1>
+      </periodical>
+      <pages>7065</pages>
+      <volume>26</volume>
+      <number>23</number>
+      <dates>
+        <year>2021</year>
+      </dates>
+      <urls>
+        <related-urls>
+          <url>https://doi.org/10.3390/molecules26237065</url>
+        </related-urls>
+      </urls>
+      <electronic-resource-num>10.3390/molecules26237065</electronic-resource-num>
+      <label>cynanchum3</label>
+      <notes>Verified reference metadata. Manuscript citation [3].</notes>
+    </record>
+    <record>
+      <rec-number>4</rec-number>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Manley, Marena</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Near-infrared spectroscopy and hyperspectral imaging: non-destructive analysis of biological materials</title>
+        <secondary-title>Chem. Soc. Rev.</secondary-title>
+        <alt-title>Chem. Soc. Rev.</alt-title>
+      </titles>
+      <periodical>
+        <full-title>Chem. Soc. Rev.</full-title>
+        <abbr-1>Chem. Soc. Rev.</abbr-1>
+      </periodical>
+      <pages>8200-8214</pages>
+      <volume>43</volume>
+      <number>24</number>
+      <dates>
+        <year>2014</year>
+      </dates>
+      <urls>
+        <related-urls>
+          <url>https://doi.org/10.1039/c4cs00062e</url>
+        </related-urls>
+      </urls>
+      <electronic-resource-num>10.1039/c4cs00062e</electronic-resource-num>
+      <label>nir_food1</label>
+      <notes>Verified reference metadata. Manuscript citation [4].</notes>
+    </record>
+    <record>
+      <rec-number>5</rec-number>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Beć, Krzysztof B</author>
+          <author>Grabska, Justyna</author>
+          <author>Huck, Christian W</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Miniaturized NIR Spectroscopy in Food Analysis and Quality Control: Promises, Challenges, and Perspectives</title>
+        <secondary-title>Foods</secondary-title>
+        <alt-title>Foods</alt-title>
+      </titles>
+      <periodical>
+        <full-title>Foods</full-title>
+        <abbr-1>Foods</abbr-1>
+      </periodical>
+      <pages>1465</pages>
+      <volume>11</volume>
+      <number>10</number>
+      <dates>
+        <year>2022</year>
+      </dates>
+      <urls>
+        <related-urls>
+          <url>https://doi.org/10.3390/foods11101465</url>
+        </related-urls>
+      </urls>
+      <electronic-resource-num>10.3390/foods11101465</electronic-resource-num>
+      <label>nir_food2</label>
+      <notes>Verified reference metadata. Manuscript citation [5].</notes>
+    </record>
+    <record>
+      <rec-number>6</rec-number>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Beć, Krzysztof B</author>
+          <author>Grabska, Justyna</author>
+          <author>Huck, Christian W</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Principles and Applications of Miniaturized Near‐Infrared (NIR) Spectrometers</title>
+        <secondary-title>Chemistry – A European Journal</secondary-title>
+        <alt-title>Chem. Eur. J.</alt-title>
+      </titles>
+      <periodical>
+        <full-title>Chemistry – A European Journal</full-title>
+        <abbr-1>Chem. Eur. J.</abbr-1>
+      </periodical>
+      <pages>1514-1532</pages>
+      <volume>27</volume>
+      <number>5</number>
+      <dates>
+        <year>2021</year>
+      </dates>
+      <urls>
+        <related-urls>
+          <url>https://doi.org/10.1002/chem.202002838</url>
+        </related-urls>
+      </urls>
+      <electronic-resource-num>10.1002/chem.202002838</electronic-resource-num>
+      <label>miniaturization</label>
+      <notes>Verified reference metadata. Manuscript citation [6].</notes>
+    </record>
+    <record>
+      <rec-number>7</rec-number>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Pasquini, Celio</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Near infrared spectroscopy: A mature analytical technique with new perspectives – A review</title>
+        <secondary-title>Analytica Chimica Acta</secondary-title>
+        <alt-title>Anal. Chim. Acta</alt-title>
+      </titles>
+      <periodical>
+        <full-title>Analytica Chimica Acta</full-title>
+        <abbr-1>Anal. Chim. Acta</abbr-1>
+      </periodical>
+      <pages>8-36</pages>
+      <volume>1026</volume>
+      <dates>
+        <year>2018</year>
+      </dates>
+      <urls>
+        <related-urls>
+          <url>https://doi.org/10.1016/j.aca.2018.04.004</url>
+        </related-urls>
+      </urls>
+      <electronic-resource-num>10.1016/j.aca.2018.04.004</electronic-resource-num>
+      <label>pasquini</label>
+      <notes>Verified reference metadata. Manuscript citation [7].</notes>
+    </record>
+    <record>
+      <rec-number>8</rec-number>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Curran, Paul J</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Remote sensing of foliar chemistry</title>
+        <secondary-title>Remote Sensing of Environment</secondary-title>
+        <alt-title>Remote Sens. Environ.</alt-title>
+      </titles>
+      <periodical>
+        <full-title>Remote Sensing of Environment</full-title>
+        <abbr-1>Remote Sens. Environ.</abbr-1>
+      </periodical>
+      <pages>271-278</pages>
+      <volume>30</volume>
+      <number>3</number>
+      <dates>
+        <year>1989</year>
+      </dates>
+      <urls>
+        <related-urls>
+          <url>https://doi.org/10.1016/0034-4257(89)90069-2</url>
+        </related-urls>
+      </urls>
+      <electronic-resource-num>10.1016/0034-4257(89)90069-2</electronic-resource-num>
+      <label>spectral_physics</label>
+      <notes>Verified reference metadata. Manuscript citation [8].</notes>
+    </record>
+    <record>
+      <rec-number>9</rec-number>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Rinnan, Åsmund</author>
+          <author>van den Berg, Frans</author>
+          <author>Engelsen, Søren Balling</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Review of the most common pre-processing techniques for near-infrared spectra</title>
+        <secondary-title>TrAC Trends in Analytical Chemistry</secondary-title>
+        <alt-title>TrAC Trends Anal. Chem.</alt-title>
+      </titles>
+      <periodical>
+        <full-title>TrAC Trends in Analytical Chemistry</full-title>
+        <abbr-1>TrAC Trends Anal. Chem.</abbr-1>
+      </periodical>
+      <pages>1201-1222</pages>
+      <volume>28</volume>
+      <number>10</number>
+      <dates>
+        <year>2009</year>
+      </dates>
+      <urls>
+        <related-urls>
+          <url>https://doi.org/10.1016/j.trac.2009.07.007</url>
+        </related-urls>
+      </urls>
+      <electronic-resource-num>10.1016/j.trac.2009.07.007</electronic-resource-num>
+      <label>preprocessing_review</label>
+      <notes>Verified reference metadata. Manuscript citation [9].</notes>
+    </record>
+    <record>
+      <rec-number>10</rec-number>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Wold, Svante</author>
+          <author>Sjöström, Michael</author>
+          <author>Eriksson, Lennart</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>PLS-regression: a basic tool of chemometrics</title>
+        <secondary-title>Chemometrics and Intelligent Laboratory Systems</secondary-title>
+        <alt-title>Chemom. Intell. Lab. Syst.</alt-title>
+      </titles>
+      <periodical>
+        <full-title>Chemometrics and Intelligent Laboratory Systems</full-title>
+        <abbr-1>Chemom. Intell. Lab. Syst.</abbr-1>
+      </periodical>
+      <pages>109-130</pages>
+      <volume>58</volume>
+      <number>2</number>
+      <dates>
+        <year>2001</year>
+      </dates>
+      <urls>
+        <related-urls>
+          <url>https://doi.org/10.1016/s0169-7439(01)00155-1</url>
+        </related-urls>
+      </urls>
+      <electronic-resource-num>10.1016/s0169-7439(01)00155-1</electronic-resource-num>
+      <label>pls</label>
+      <notes>Verified reference metadata. Manuscript citation [10].</notes>
+    </record>
+    <record>
+      <rec-number>11</rec-number>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Mehmood, Tahir</author>
+          <author>Liland, Kristian Hovde</author>
+          <author>Snipen, Lars</author>
+          <author>Sæbø, Solve</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>A review of variable selection methods in Partial Least Squares Regression</title>
+        <secondary-title>Chemometrics and Intelligent Laboratory Systems</secondary-title>
+        <alt-title>Chemom. Intell. Lab. Syst.</alt-title>
+      </titles>
+      <periodical>
+        <full-title>Chemometrics and Intelligent Laboratory Systems</full-title>
+        <abbr-1>Chemom. Intell. Lab. Syst.</abbr-1>
+      </periodical>
+      <pages>62-69</pages>
+      <volume>118</volume>
+      <dates>
+        <year>2012</year>
+      </dates>
+      <urls>
+        <related-urls>
+          <url>https://doi.org/10.1016/j.chemolab.2012.07.010</url>
+        </related-urls>
+      </urls>
+      <electronic-resource-num>10.1016/j.chemolab.2012.07.010</electronic-resource-num>
+      <label>selection_review1</label>
+      <notes>Verified reference metadata. Manuscript citation [11].</notes>
+    </record>
+    <record>
+      <rec-number>12</rec-number>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Zou, Xiaobo</author>
+          <author>Zhao, Jiewen</author>
+          <author>Povey, Malcolm J.W</author>
+          <author>Holmes, Mel</author>
+          <author>Mao, Hanpin</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Variables selection methods in near-infrared spectroscopy</title>
+        <secondary-title>Analytica Chimica Acta</secondary-title>
+        <alt-title>Anal. Chim. Acta</alt-title>
+      </titles>
+      <periodical>
+        <full-title>Analytica Chimica Acta</full-title>
+        <abbr-1>Anal. Chim. Acta</abbr-1>
+      </periodical>
+      <pages>14-32</pages>
+      <volume>667</volume>
+      <number>1-2</number>
+      <dates>
+        <year>2010</year>
+      </dates>
+      <urls>
+        <related-urls>
+          <url>https://doi.org/10.1016/j.aca.2010.03.048</url>
+        </related-urls>
+      </urls>
+      <electronic-resource-num>10.1016/j.aca.2010.03.048</electronic-resource-num>
+      <label>selection_review2</label>
+      <notes>Verified reference metadata. Manuscript citation [12].</notes>
+    </record>
+    <record>
+      <rec-number>13</rec-number>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Kousar, Javaria</author>
+          <author>Yang, Liping</author>
+          <author>Xiang, Jiale</author>
+          <author>Mao, Qingwei</author>
+          <author>Bian, Xihui</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Beluga Optimization Algorithm for Near-Infrared Spectral Variable Selection of Complex Samples</title>
+        <secondary-title>Foods</secondary-title>
+        <alt-title>Foods</alt-title>
+      </titles>
+      <periodical>
+        <full-title>Foods</full-title>
+        <abbr-1>Foods</abbr-1>
+      </periodical>
+      <pages>4266</pages>
+      <volume>14</volume>
+      <number>24</number>
+      <dates>
+        <year>2025</year>
+      </dates>
+      <urls>
+        <related-urls>
+          <url>https://doi.org/10.3390/foods14244266</url>
+        </related-urls>
+      </urls>
+      <electronic-resource-num>10.3390/foods14244266</electronic-resource-num>
+      <label>bwo_foods_ref</label>
+      <notes>Verified reference metadata. Manuscript citation [13].</notes>
+    </record>
+    <record>
+      <rec-number>14</rec-number>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Centner, Vítézslav</author>
+          <author>Massart, Désiré-Luc</author>
+          <author>de Noord, Onno E</author>
+          <author>de Jong, Sijmen</author>
+          <author>Vandeginste, Bernard M</author>
+          <author>Sterna, Cécile</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Elimination of Uninformative Variables for Multivariate Calibration</title>
+        <secondary-title>Analytical Chemistry</secondary-title>
+        <alt-title>Anal. Chem.</alt-title>
+      </titles>
+      <periodical>
+        <full-title>Analytical Chemistry</full-title>
+        <abbr-1>Anal. Chem.</abbr-1>
+      </periodical>
+      <pages>3851-3858</pages>
+      <volume>68</volume>
+      <number>21</number>
+      <dates>
+        <year>1996</year>
+      </dates>
+      <urls>
+        <related-urls>
+          <url>https://doi.org/10.1021/ac960321m</url>
+        </related-urls>
+      </urls>
+      <electronic-resource-num>10.1021/ac960321m</electronic-resource-num>
+      <label>uve</label>
+      <notes>Verified reference metadata. Manuscript citation [14].</notes>
+    </record>
+    <record>
+      <rec-number>15</rec-number>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Cai, Wensheng</author>
+          <author>Li, Yankun</author>
+          <author>Shao, Xueguang</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>A variable selection method based on uninformative variable elimination for multivariate calibration of near-infrared spectra</title>
+        <secondary-title>Chemometrics and Intelligent Laboratory Systems</secondary-title>
+        <alt-title>Chemom. Intell. Lab. Syst.</alt-title>
+      </titles>
+      <periodical>
+        <full-title>Chemometrics and Intelligent Laboratory Systems</full-title>
+        <abbr-1>Chemom. Intell. Lab. Syst.</abbr-1>
+      </periodical>
+      <pages>188-194</pages>
+      <volume>90</volume>
+      <number>2</number>
+      <dates>
+        <year>2008</year>
+      </dates>
+      <urls>
+        <related-urls>
+          <url>https://doi.org/10.1016/j.chemolab.2007.10.001</url>
+        </related-urls>
+      </urls>
+      <electronic-resource-num>10.1016/j.chemolab.2007.10.001</electronic-resource-num>
+      <label>mcuve</label>
+      <notes>Verified reference metadata. Manuscript citation [15].</notes>
+    </record>
+    <record>
+      <rec-number>16</rec-number>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Xu, Heng</author>
+          <author>Liu, Zhichao</author>
+          <author>Cai, Wensheng</author>
+          <author>Shao, Xueguang</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>A wavelength selection method based on randomization test for near-infrared spectral analysis</title>
+        <secondary-title>Chemometrics and Intelligent Laboratory Systems</secondary-title>
+        <alt-title>Chemom. Intell. Lab. Syst.</alt-title>
+      </titles>
+      <periodical>
+        <full-title>Chemometrics and Intelligent Laboratory Systems</full-title>
+        <abbr-1>Chemom. Intell. Lab. Syst.</abbr-1>
+      </periodical>
+      <pages>189-193</pages>
+      <volume>97</volume>
+      <number>2</number>
+      <dates>
+        <year>2009</year>
+      </dates>
+      <urls>
+        <related-urls>
+          <url>https://doi.org/10.1016/j.chemolab.2009.04.006</url>
+        </related-urls>
+      </urls>
+      <electronic-resource-num>10.1016/j.chemolab.2009.04.006</electronic-resource-num>
+      <label>rt</label>
+      <notes>Verified reference metadata. Manuscript citation [16].</notes>
+    </record>
+    <record>
+      <rec-number>17</rec-number>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Li, Hong-Dong</author>
+          <author>Xu, Qing-Song</author>
+          <author>Liang, Yi-Zeng</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>libPLS: An integrated library for partial least squares regression and linear discriminant analysis</title>
+        <secondary-title>Chemometrics and Intelligent Laboratory Systems</secondary-title>
+        <alt-title>Chemom. Intell. Lab. Syst.</alt-title>
+      </titles>
+      <periodical>
+        <full-title>Chemometrics and Intelligent Laboratory Systems</full-title>
+        <abbr-1>Chemom. Intell. Lab. Syst.</abbr-1>
+      </periodical>
+      <pages>34-43</pages>
+      <volume>176</volume>
+      <dates>
+        <year>2018</year>
+      </dates>
+      <urls>
+        <related-urls>
+          <url>https://doi.org/10.1016/j.chemolab.2018.03.003</url>
+        </related-urls>
+      </urls>
+      <electronic-resource-num>10.1016/j.chemolab.2018.03.003</electronic-resource-num>
+      <label>libpls</label>
+      <notes>Verified reference metadata. Manuscript citation [17].</notes>
+    </record>
+    <record>
+      <rec-number>18</rec-number>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Meinshausen, Nicolai</author>
+          <author>Bühlmann, Peter</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Stability Selection</title>
+        <secondary-title>Journal of the Royal Statistical Society Series B: Statistical Methodology</secondary-title>
+        <alt-title>J. R. Stat. Soc. B Stat. Methodol.</alt-title>
+      </titles>
+      <periodical>
+        <full-title>Journal of the Royal Statistical Society Series B: Statistical Methodology</full-title>
+        <abbr-1>J. R. Stat. Soc. B Stat. Methodol.</abbr-1>
+      </periodical>
+      <pages>417-473</pages>
+      <volume>72</volume>
+      <number>4</number>
+      <dates>
+        <year>2010</year>
+      </dates>
+      <urls>
+        <related-urls>
+          <url>https://doi.org/10.1111/j.1467-9868.2010.00740.x</url>
+        </related-urls>
+      </urls>
+      <electronic-resource-num>10.1111/j.1467-9868.2010.00740.x</electronic-resource-num>
+      <label>stability1</label>
+      <notes>Verified reference metadata. Manuscript citation [18].</notes>
+    </record>
+    <record>
+      <rec-number>19</rec-number>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Shah, Rajen D</author>
+          <author>Samworth, Richard J</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Variable Selection with Error Control: Another Look at Stability Selection</title>
+        <secondary-title>Journal of the Royal Statistical Society Series B: Statistical Methodology</secondary-title>
+        <alt-title>J. R. Stat. Soc. B Stat. Methodol.</alt-title>
+      </titles>
+      <periodical>
+        <full-title>Journal of the Royal Statistical Society Series B: Statistical Methodology</full-title>
+        <abbr-1>J. R. Stat. Soc. B Stat. Methodol.</abbr-1>
+      </periodical>
+      <pages>55-80</pages>
+      <volume>75</volume>
+      <number>1</number>
+      <dates>
+        <year>2013</year>
+      </dates>
+      <urls>
+        <related-urls>
+          <url>https://doi.org/10.1111/j.1467-9868.2011.01034.x</url>
+        </related-urls>
+      </urls>
+      <electronic-resource-num>10.1111/j.1467-9868.2011.01034.x</electronic-resource-num>
+      <label>stability2</label>
+      <notes>Verified reference metadata. Manuscript citation [19].</notes>
+    </record>
+    <record>
+      <rec-number>20</rec-number>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Galvão, R. K. H.</author>
+          <author>Araújo, M. C. U.</author>
+          <author>José, G. E.</author>
+          <author>Pontes, M. J. C.</author>
+          <author>Silva, E. C.</author>
+          <author>Saldanha, T. C. B.</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>A method for calibration and validation subset partitioning</title>
+        <secondary-title>Talanta</secondary-title>
+        <alt-title>Talanta</alt-title>
+      </titles>
+      <periodical>
+        <full-title>Talanta</full-title>
+        <abbr-1>Talanta</abbr-1>
+      </periodical>
+      <pages>736-740</pages>
+      <volume>67</volume>
+      <number>4</number>
+      <dates>
+        <year>2005</year>
+      </dates>
+      <urls>
+        <related-urls>
+          <url>https://doi.org/10.1016/j.talanta.2005.03.025</url>
+        </related-urls>
+      </urls>
+      <electronic-resource-num>10.1016/j.talanta.2005.03.025</electronic-resource-num>
+      <label>spxy</label>
+      <notes>Verified reference metadata. Manuscript citation [20].</notes>
+    </record>
+    <record>
+      <rec-number>21</rec-number>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Geladi, P</author>
+          <author>MacDougall, D</author>
+          <author>Martens, H</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Linearization and Scatter-Correction for Near-Infrared Reflectance Spectra of Meat</title>
+        <secondary-title>Applied Spectroscopy</secondary-title>
+        <alt-title>Appl. Spectrosc.</alt-title>
+      </titles>
+      <periodical>
+        <full-title>Applied Spectroscopy</full-title>
+        <abbr-1>Appl. Spectrosc.</abbr-1>
+      </periodical>
+      <pages>491-500</pages>
+      <volume>39</volume>
+      <number>3</number>
+      <dates>
+        <year>1985</year>
+      </dates>
+      <urls>
+        <related-urls>
+          <url>https://doi.org/10.1366/0003702854248656</url>
+        </related-urls>
+      </urls>
+      <electronic-resource-num>10.1366/0003702854248656</electronic-resource-num>
+      <label>msc</label>
+      <notes>Verified reference metadata. Manuscript citation [21].</notes>
+    </record>
+    <record>
+      <rec-number>22</rec-number>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Barnes, R. J</author>
+          <author>Dhanoa, M. S</author>
+          <author>Lister, Susan J</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Standard Normal Variate Transformation and De-Trending of Near-Infrared Diffuse Reflectance Spectra</title>
+        <secondary-title>Applied Spectroscopy</secondary-title>
+        <alt-title>Appl. Spectrosc.</alt-title>
+      </titles>
+      <periodical>
+        <full-title>Applied Spectroscopy</full-title>
+        <abbr-1>Appl. Spectrosc.</abbr-1>
+      </periodical>
+      <pages>772-777</pages>
+      <volume>43</volume>
+      <number>5</number>
+      <dates>
+        <year>1989</year>
+      </dates>
+      <urls>
+        <related-urls>
+          <url>https://doi.org/10.1366/0003702894202201</url>
+        </related-urls>
+      </urls>
+      <electronic-resource-num>10.1366/0003702894202201</electronic-resource-num>
+      <label>snv</label>
+      <notes>Verified reference metadata. Manuscript citation [22].</notes>
+    </record>
+    <record>
+      <rec-number>23</rec-number>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Savitzky, Abraham</author>
+          <author>Golay, M. J. E</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Smoothing and Differentiation of Data by Simplified Least Squares Procedures.</title>
+        <secondary-title>Analytical Chemistry</secondary-title>
+        <alt-title>Anal. Chem.</alt-title>
+      </titles>
+      <periodical>
+        <full-title>Analytical Chemistry</full-title>
+        <abbr-1>Anal. Chem.</abbr-1>
+      </periodical>
+      <pages>1627-1639</pages>
+      <volume>36</volume>
+      <number>8</number>
+      <dates>
+        <year>1964</year>
+      </dates>
+      <urls>
+        <related-urls>
+          <url>https://doi.org/10.1021/ac60214a047</url>
+        </related-urls>
+      </urls>
+      <electronic-resource-num>10.1021/ac60214a047</electronic-resource-num>
+      <label>sg</label>
+      <notes>Verified reference metadata. Manuscript citation [23].</notes>
+    </record>
+    <record>
+      <rec-number>24</rec-number>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Torrence, Christopher</author>
+          <author>Compo, Gilbert P</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>A Practical Guide to Wavelet Analysis</title>
+        <secondary-title>Bulletin of the American Meteorological Society</secondary-title>
+        <alt-title>Bull. Am. Meteorol. Soc.</alt-title>
+      </titles>
+      <periodical>
+        <full-title>Bulletin of the American Meteorological Society</full-title>
+        <abbr-1>Bull. Am. Meteorol. Soc.</abbr-1>
+      </periodical>
+      <pages>61-78</pages>
+      <volume>79</volume>
+      <number>1</number>
+      <dates>
+        <year>1998</year>
+      </dates>
+      <urls>
+        <related-urls>
+          <url>https://doi.org/10.1175/1520-0477(1998)079&lt;0061:apgtwa&gt;2.0.co;2</url>
+        </related-urls>
+      </urls>
+      <electronic-resource-num>10.1175/1520-0477(1998)079&lt;0061:apgtwa&gt;2.0.co;2</electronic-resource-num>
+      <label>cwt</label>
+      <notes>Verified reference metadata. Manuscript citation [24].</notes>
+    </record>
+    <record>
+      <rec-number>25</rec-number>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Bellon-Maurel, Véronique</author>
+          <author>Fernandez-Ahumada, Elvira</author>
+          <author>Palagos, Bernard</author>
+          <author>Roger, Jean-Michel</author>
+          <author>McBratney, Alex</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Critical review of chemometric indicators commonly used for assessing the quality of the prediction of soil attributes by NIR spectroscopy</title>
+        <secondary-title>TrAC Trends in Analytical Chemistry</secondary-title>
+        <alt-title>TrAC Trends Anal. Chem.</alt-title>
+      </titles>
+      <periodical>
+        <full-title>TrAC Trends in Analytical Chemistry</full-title>
+        <abbr-1>TrAC Trends Anal. Chem.</abbr-1>
+      </periodical>
+      <pages>1073-1081</pages>
+      <volume>29</volume>
+      <number>9</number>
+      <dates>
+        <year>2010</year>
+      </dates>
+      <urls>
+        <related-urls>
+          <url>https://doi.org/10.1016/j.trac.2010.05.006</url>
+        </related-urls>
+      </urls>
+      <electronic-resource-num>10.1016/j.trac.2010.05.006</electronic-resource-num>
+      <label>metrics</label>
+      <notes>Verified reference metadata. Manuscript citation [25].</notes>
+    </record>
+    <record>
+      <rec-number>26</rec-number>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Feudale, Robert N</author>
+          <author>Woody, Nathaniel A</author>
+          <author>Tan, Huwei</author>
+          <author>Myles, Anthony J</author>
+          <author>Brown, Steven D</author>
+          <author>Ferré, Joan</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Transfer of multivariate calibration models: a review</title>
+        <secondary-title>Chemometrics and Intelligent Laboratory Systems</secondary-title>
+        <alt-title>Chemom. Intell. Lab. Syst.</alt-title>
+      </titles>
+      <periodical>
+        <full-title>Chemometrics and Intelligent Laboratory Systems</full-title>
+        <abbr-1>Chemom. Intell. Lab. Syst.</abbr-1>
+      </periodical>
+      <pages>181-192</pages>
+      <volume>64</volume>
+      <number>2</number>
+      <dates>
+        <year>2002</year>
+      </dates>
+      <urls>
+        <related-urls>
+          <url>https://doi.org/10.1016/s0169-7439(02)00085-0</url>
+        </related-urls>
+      </urls>
+      <electronic-resource-num>10.1016/s0169-7439(02)00085-0</electronic-resource-num>
+      <label>transfer1</label>
+      <notes>Verified reference metadata. Manuscript citation [26].</notes>
+    </record>
+    <record>
+      <rec-number>27</rec-number>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>Wang, Yongdong</author>
+          <author>Veltkamp, David J</author>
+          <author>Kowalski, Bruce R</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Multivariate instrument standardization</title>
+        <secondary-title>Analytical Chemistry</secondary-title>
+        <alt-title>Anal. Chem.</alt-title>
+      </titles>
+      <periodical>
+        <full-title>Analytical Chemistry</full-title>
+        <abbr-1>Anal. Chem.</abbr-1>
+      </periodical>
+      <pages>2750-2756</pages>
+      <volume>63</volume>
+      <number>23</number>
+      <dates>
+        <year>1991</year>
+      </dates>
+      <urls>
+        <related-urls>
+          <url>https://doi.org/10.1021/ac00023a016</url>
+        </related-urls>
+      </urls>
+      <electronic-resource-num>10.1021/ac00023a016</electronic-resource-num>
+      <label>transfer2</label>
+      <notes>Verified reference metadata. Manuscript citation [27].</notes>
+    </record>
+  </records>
+</xml>

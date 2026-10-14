@@ -1,0 +1,164 @@
+[
+  {
+    "number": 1,
+    "key": "cynanchum1",
+    "doi": "10.1016/j.fitote.2025.106519",
+    "url": "https://doi.org/10.1016/j.fitote.2025.106519"
+  },
+  {
+    "number": 2,
+    "key": "cynanchum2",
+    "doi": "10.1016/j.phytochem.2017.04.014",
+    "url": "https://doi.org/10.1016/j.phytochem.2017.04.014"
+  },
+  {
+    "number": 3,
+    "key": "cynanchum3",
+    "doi": "10.3390/molecules26237065",
+    "url": "https://doi.org/10.3390/molecules26237065"
+  },
+  {
+    "number": 4,
+    "key": "nir_food1",
+    "doi": "10.1039/c4cs00062e",
+    "url": "https://doi.org/10.1039/c4cs00062e"
+  },
+  {
+    "number": 5,
+    "key": "nir_food2",
+    "doi": "10.3390/foods11101465",
+    "url": "https://doi.org/10.3390/foods11101465"
+  },
+  {
+    "number": 6,
+    "key": "miniaturization",
+    "doi": "10.1002/chem.202002838",
+    "url": "https://doi.org/10.1002/chem.202002838"
+  },
+  {
+    "number": 7,
+    "key": "pasquini",
+    "doi": "10.1016/j.aca.2018.04.004",
+    "url": "https://doi.org/10.1016/j.aca.2018.04.004"
+  },
+  {
+    "number": 8,
+    "key": "spectral_physics",
+    "doi": "10.1016/0034-4257(89)90069-2",
+    "url": "https://doi.org/10.1016/0034-4257(89)90069-2"
+  },
+  {
+    "number": 9,
+    "key": "preprocessing_review",
+    "doi": "10.1016/j.trac.2009.07.007",
+    "url": "https://doi.org/10.1016/j.trac.2009.07.007"
+  },
+  {
+    "number": 10,
+    "key": "pls",
+    "doi": "10.1016/s0169-7439(01)00155-1",
+    "url": "https://doi.org/10.1016/s0169-7439(01)00155-1"
+  },
+  {
+    "number": 11,
+    "key": "selection_review1",
+    "doi": "10.1016/j.chemolab.2012.07.010",
+    "url": "https://doi.org/10.1016/j.chemolab.2012.07.010"
+  },
+  {
+    "number": 12,
+    "key": "selection_review2",
+    "doi": "10.1016/j.aca.2010.03.048",
+    "url": "https://doi.org/10.1016/j.aca.2010.03.048"
+  },
+  {
+    "number": 13,
+    "key": "bwo_foods_ref",
+    "doi": "10.3390/foods14244266",
+    "url": "https://doi.org/10.3390/foods14244266"
+  },
+  {
+    "number": 14,
+    "key": "uve",
+    "doi": "10.1021/ac960321m",
+    "url": "https://doi.org/10.1021/ac960321m"
+  },
+  {
+    "number": 15,
+    "key": "mcuve",
+    "doi": "10.1016/j.chemolab.2007.10.001",
+    "url": "https://doi.org/10.1016/j.chemolab.2007.10.001"
+  },
+  {
+    "number": 16,
+    "key": "rt",
+    "doi": "10.1016/j.chemolab.2009.04.006",
+    "url": "https://doi.org/10.1016/j.chemolab.2009.04.006"
+  },
+  {
+    "number": 17,
+    "key": "libpls",
+    "doi": "10.1016/j.chemolab.2018.03.003",
+    "url": "https://doi.org/10.1016/j.chemolab.2018.03.003"
+  },
+  {
+    "number": 18,
+    "key": "stability1",
+    "doi": "10.1111/j.1467-9868.2010.00740.x",
+    "url": "https://doi.org/10.1111/j.1467-9868.2010.00740.x"
+  },
+  {
+    "number": 19,
+    "key": "stability2",
+    "doi": "10.1111/j.1467-9868.2011.01034.x",
+    "url": "https://doi.org/10.1111/j.1467-9868.2011.01034.x"
+  },
+  {
+    "number": 20,
+    "key": "spxy",
+    "doi": "10.1016/j.talanta.2005.03.025",
+    "url": "https://doi.org/10.1016/j.talanta.2005.03.025"
+  },
+  {
+    "number": 21,
+    "key": "msc",
+    "doi": "10.1366/0003702854248656",
+    "url": "https://doi.org/10.1366/0003702854248656"
+  },
+  {
+    "number": 22,
+    "key": "snv",
+    "doi": "10.1366/0003702894202201",
+    "url": "https://doi.org/10.1366/0003702894202201"
+  },
+  {
+    "number": 23,
+    "key": "sg",
+    "doi": "10.1021/ac60214a047",
+    "url": "https://doi.org/10.1021/ac60214a047"
+  },
+  {
+    "number": 24,
+    "key": "cwt",
+    "doi": "10.1175/1520-0477(1998)079<0061:apgtwa>2.0.co;2",
+    "url": "https://doi.org/10.1175/1520-0477(1998)079<0061:apgtwa>2.0.co;2"
+  },
+  {
+    "number": 25,
+    "key": "metrics",
+    "doi": "10.1016/j.trac.2010.05.006",
+    "url": "https://doi.org/10.1016/j.trac.2010.05.006"
+  },
+  {
+    "number": 26,
+    "key": "transfer1",
+    "doi": "10.1016/s0169-7439(02)00085-0",
+    "url": "https://doi.org/10.1016/s0169-7439(02)00085-0"
+  },
+  {
+    "number": 27,
+    "key": "transfer2",
+    "doi": "10.1021/ac00023a016",
+    "url": "https://doi.org/10.1021/ac00023a016"
+  }
+]

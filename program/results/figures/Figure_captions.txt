@@ -1,0 +1,21 @@
+Figure 1. Flowcharts of (a) the calibration and prediction procedure and (b) bandwise stability and redundancy selection (BSRS). The 84 spectra contain 141 variables. SPXY assigns 63 samples to calibration and 21 to prediction. Reliability is estimated from 100 subsamples; variable budgets and latent-variable counts are selected using fivefold calibration cross-validation.
+
+Figure 2. Raw spectral data: (a) spectra of all 84 samples, each containing 141 measured variables, and (b) reference C21 steroidal glycoside equivalent contents by sample index. Colors distinguish spectra; A.U. denotes the recorded optical response.
+
+Figure 3. Characteristics of the SPXY partition: (a) reference-content distributions, (b) density histograms, (c) principal-component scores and (d) reference-content ranges and means for the calibration (n = 63) and prediction (n = 21) sets. PCA is fitted to calibration spectra and used only to display the frozen partition; SPXY uses the normalized Euclidean spectral and reference-content distances across all 141 raw spectral variables.
+
+Figure 4. Full-spectrum PLS under six preprocessing conditions. Blue bars show fivefold calibration RMSECV and red bars show prediction RMSEP; the green star identifies the preprocessing selected using calibration RMSECV. LV denotes the selected number of latent variables.
+
+Figure 5. Performance and retained variable counts for full-spectrum PLS, UVE rank, MC-UVE rank, RT, adapted C-value and BSRS: (a) fivefold calibration RMSECV (open squares) and prediction RMSEP (circles), and (b) selected variable counts. The green star marks the minimum-calibration-RMSECV method. UVE and MC-UVE use cross-validated reliability-rank prefixes; the C-value random design is explicitly adapted.
+
+Figure 6. Reference and predicted C21 steroidal glycoside equivalent contents for full-spectrum PLS, MC-UVE rank and BSRS (columns). Panels (a-c) show calibration fits (n = 63), and panels (d-f) show prediction results (n = 21). Blue circles show predicted versus reference contents; red lines are descriptive linear fits, and black dashed lines indicate identity.
+
+Figure 7. Wavelength positions retained by UVE (blue), MC-UVE (green), RT (magenta), adapted C-value (orange) and BSRS (red). Counts are shown in parentheses; the black line is the normalized mean raw calibration spectrum. Selected positions for derivative and CWT models refer to their uniform working grid.
+
+Figure S1. Calibration spectra under (a) raw, (b) MSC, (c) SNV, (d) CWT, (e) first-derivative and (f) second-derivative preprocessing. Thin blue curves represent individual samples and black curves their means. MSC references use calibration samples; derivatives and CWT use uniform wavelength grids. Vertical scales retain the units of each transformation.
+
+Figure S2. Prediction residuals for the calibration-selected BSRS model: (a) residuals versus reference content and (b) residual distribution for the 21 prediction samples. Black lines indicate zero error and red dashed lines indicate mean bias.
+
+Figure S3. BSRS diagnostics: (a) log coefficient reliability, (b) sign consistency, (c) the five-variable local mean of sign-weighted log reliability and (d) fivefold selection frequency. Red points mark selected variables. Reliability uses 100 subsamples containing 80% of calibration samples without replacement; selection frequency describes consistency across calibration folds.
+
+Figure S4. BSRS component ablations with separately optimized variable budgets and latent-variable counts. Blue bars show fivefold calibration RMSECV and red bars show prediction RMSEP. Each ablation omits sign weighting, local smoothing or redundancy penalization.

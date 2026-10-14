@@ -1,0 +1,9 @@
+{
+  "file": "baishouwu_spectra.mat",
+  "samples": 84,
+  "variables": 141,
+  "source_attachment_sha256": "a44eb1056b8d50e7bacd5b0e36290c4664357a2b08374a65d49ea323aea8ac02",
+  "sha256": "da4e90a61da8fb4b832550925566aedc7be6e4100590b340c3c6e95f330aa44c",
+  "variable_order": "Spectra and wavelengths paired in ascending wavelength order",
+  "spectra_and_reference_values_match_attachment": true
+}

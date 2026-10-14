@@ -1,0 +1,12 @@
+{
+  "samples": 84,
+  "variables": 141,
+  "range_nm": [
+    1348.278246,
+    2551.981312
+  ],
+  "ascending_reordered": false,
+  "duplicate_complete_spectra": 0,
+  "file": "baishouwu_spectra.mat",
+  "sha256": "da4e90a61da8fb4b832550925566aedc7be6e4100590b340c3c6e95f330aa44c"
+}

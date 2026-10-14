@@ -1,0 +1,120 @@
+{
+  "status": "PASS",
+  "samples": 84,
+  "calibration": 63,
+  "prediction": 21,
+  "variables": 141,
+  "SPXY_independently_reproduced": true,
+  "frozen_predictions_match": true,
+  "PLS_independent_solver_max_difference": 3.552713678800501e-14,
+  "calibration_selected_method": "BSRS",
+  "methods": [
+    "Full",
+    "UVE",
+    "MC-UVE",
+    "RT",
+    "C-value",
+    "BSRS"
+  ],
+  "figures": [
+    {
+      "figure": "Figure_1",
+      "pixels": [
+        2580,
+        2100
+      ],
+      "dpi": 300,
+      "png_sha256": "2815ee2f815393e65e181e96645d5149f7f8ab09f0d117b281be62fc23f4a694"
+    },
+    {
+      "figure": "Figure_2",
+      "pixels": [
+        2700,
+        1230
+      ],
+      "dpi": 300,
+      "png_sha256": "0a32a31de73de409876a6d95a71e1f633e4ff7f79700eac664477d3d3d1db47d"
+    },
+    {
+      "figure": "Figure_3",
+      "pixels": [
+        2700,
+        2010
+      ],
+      "dpi": 300,
+      "png_sha256": "84f5b6a3d2ffb5269bbd39ffc990132dd1b2ae104031b6ae284094109be533c1"
+    },
+    {
+      "figure": "Figure_4",
+      "pixels": [
+        2610,
+        1410
+      ],
+      "dpi": 300,
+      "png_sha256": "c422e91bcc383734339e3589b4ac57b05dca82c8764c1449bc8370a461a97736"
+    },
+    {
+      "figure": "Figure_5",
+      "pixels": [
+        2760,
+        1470
+      ],
+      "dpi": 300,
+      "png_sha256": "02184855df2e2db8d30d2a75aac596e80739b04315fd2a3999f86ad6270c8e64"
+    },
+    {
+      "figure": "Figure_6",
+      "pixels": [
+        2850,
+        1950
+      ],
+      "dpi": 300,
+      "png_sha256": "85f3f1f63f94277fc7104fc082ed10bec6ee701df830571ee60deb7b6e8f0869"
+    },
+    {
+      "figure": "Figure_7",
+      "pixels": [
+        2700,
+        1440
+      ],
+      "dpi": 300,
+      "png_sha256": "373b5184cda2f19dbb8fe98bcf0e38e6e470a1fa7f1ee98e47e62e38e03b5504"
+    },
+    {
+      "figure": "Figure_S1",
+      "pixels": [
+        2700,
+        2130
+      ],
+      "dpi": 300,
+      "png_sha256": "d6862c54be7c2e3bcef6926839c77ef3837fe76145c2a841c45a7042491bbd2f"
+    },
+    {
+      "figure": "Figure_S2",
+      "pixels": [
+        2700,
+        1290
+      ],
+      "dpi": 300,
+      "png_sha256": "6dec47f60ec6ce3697f244d2c6b9bf7bc94e2998f1b5dc5f7d8c10a654ac0c84"
+    },
+    {
+      "figure": "Figure_S3",
+      "pixels": [
+        2700,
+        1800
+      ],
+      "dpi": 300,
+      "png_sha256": "80adefd331e4cc9e696c3dbbe3a1099896e23314d089502c91bba5cb70070808"
+    },
+    {
+      "figure": "Figure_S4",
+      "pixels": [
+        2520,
+        1380
+      ],
+      "dpi": 300,
+      "png_sha256": "ad18623e1c5c465c6e27f553eb44fbd63f6e23218513721b03a7de4e5c7e0914"
+    }
+  ]
+}

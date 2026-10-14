@@ -1,0 +1,23 @@
+{
+  "partition": "SPXY",
+  "selection_criterion": "minimum calibration tuning RMSECV",
+  "method": "BSRS",
+  "pretreatment": "D2",
+  "RMSECV": 3.456582417389366,
+  "RMSEP": 2.805918125369756,
+  "observed_predicted_models": [
+    "Full",
+    "MC-UVE",
+    "BSRS"
+  ],
+  "input_result_sha256": {
+    "clean_data.npz": "8db736db54ad44944207a9aec106d4bd4daf13540d337e1647c6035295d24283",
+    "variable_selection.csv": "95cb278d82adcffd883dd8dc43d8c8938511c3c19b5403a24ff4d0aa5cb40268",
+    "preprocessing.csv": "25c52d806e0a5539723b9b1c78d9db1658ec9f4307ece74a344de120e6e29a63",
+    "predictions.csv": "5621a1d0b5930712aef7ae3e696d68fa4458627f285e38b1fb77f1065c0a6d01",
+    "split_summary.csv": "6f84441c99c6cf2da90d8d779d0c898c862cf9f5c63a444fec1d128712ebcc40",
+    "selection_details.json": "7945fadf4febc8244fb240fa3c207e52d73062b8ecb937226cf6dcf2ab7b2e30",
+    "ablation.csv": "c5d43a4ddab1fb46fa15051bef7e2271eba30721d6cae930b0ddc57cdd800fc5",
+    "run_summary.json": "dad066997d777196aacd535372d948020d119db31b4c77d9bb341e64b1c98114"
+  }
+}

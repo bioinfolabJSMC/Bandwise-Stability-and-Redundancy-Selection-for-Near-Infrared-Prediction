@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "checks": {
+    "Foods_manuscript.docx": {
+      "sha256": "60e6086d8f3aa0437955e391e5f4726c6348e55ae5a82707635e13392a611174",
+      "tables": 6,
+      "native_display_equations": 13,
+      "expected_figures_embedded": [
+        "Figure_1",
+        "Figure_2",
+        "Figure_3",
+        "Figure_4",
+        "Figure_5",
+        "Figure_6",
+        "Figure_7"
+      ],
+      "opaque_template_parts": "byte-identical",
+      "forbidden_terms": "none"
+    },
+    "Foods_supplementary_material.docx": {
+      "sha256": "fe3f13b127a045d2af69875e3d84bca833c163912d11c49b1c6b4f61095ff397",
+      "tables": 5,
+      "native_display_equations": 0,
+      "expected_figures_embedded": [
+        "Figure_S1",
+        "Figure_S2",
+        "Figure_S3",
+        "Figure_S4"
+      ],
+      "opaque_template_parts": "byte-identical",
+      "forbidden_terms": "none"
+    }
+  }
+}

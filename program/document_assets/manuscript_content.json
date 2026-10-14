@@ -1,0 +1,159 @@
+{
+  "title": "Bandwise Stability and Redundancy Selection for Near-Infrared Prediction of Total C21 Steroidal Glycoside Equivalents in Baishouwu",
+  "abstract": "Near-infrared (NIR) spectroscopy offers a rapid approach to botanical compositional analysis, but overlapping and correlated spectral variables can complicate the development of compact calibration models. This study proposes bandwise stability and redundancy selection (BSRS), which combines resampled PLS coefficient reliability, sign consistency, local spectral support and a correlation penalty. The method was evaluated using 84 Baishouwu samples, each represented by 141 spectral variables over 1348.28–2551.98 nm and a source-assigned total C21 steroidal glycoside equivalent content. Sample partitioning based on joint X–y distances (SPXY) assigned 63 samples to calibration and 21 to prediction. Five preprocessing methods were compared with untreated spectra, followed by comparisons of full-spectrum PLS, UVE, MC-UVE, RT, an adapted C-value method and BSRS. The second derivative gave the lowest full-spectrum calibration RMSECV. BSRS gave the lowest variable-selection RMSECV, 3.457 mg g−1, retaining eight variables and reducing the spectral dimension by 94.3%. Its prediction RMSEP was 2.806 mg g−1 with R²p of 0.876, compared with 2.897 mg g−1 for full-spectrum PLS. RT gave the lowest observed prediction RMSEP, 2.746 mg g−1. The results identify the balance between model compactness and prediction performance under the fixed SPXY partition and provide a reproducible procedure for selecting informative spectral variables.",
+  "keywords": "near-infrared spectroscopy; Baishouwu; C21 steroidal glycosides; variable selection; partial least squares; coefficient stability",
+  "sections": [
+    {
+      "heading": "1. Introduction",
+      "paragraphs": [
+        "Baishouwu is used in traditional preparations and food-related products, and its composition varies with botanical source, cultivation and processing. C21 steroidal glycosides are a diverse group of constituents reported from Cynanchum auriculatum [@cynanchum1; @cynanchum2; @cynanchum3]. Their total assay response provides a compositional indicator for quality assessment. When the assay is calibrated against one reference compound, however, the result represents an equivalent content rather than the sum of individually determined glycosides.",
+        "Near-infrared (NIR) spectroscopy is widely investigated for the quantitative analysis of food and agricultural materials because measurements are rapid and require limited sample preparation [@nir_food1; @nir_food2]. Miniaturized instruments further support measurements outside centralized laboratories [@miniaturization]. NIR spectra contain overlapping overtone and combination bands together with variation in moisture, particle size and the surrounding matrix. Multivariate calibration is therefore required to relate the recorded response to the constituent of interest [@pasquini; @spectral_physics].",
+        "Partial least squares (PLS) is commonly used for correlated spectral data, but a model may contain predictors that contribute little useful information. Preprocessing can reduce scatter effects or emphasize spectral structure, while variable selection can produce a more compact predictor set [@preprocessing_review; @pls]. Existing approaches include coefficient reliability, response randomization and optimization-based subset searches. Their relative performance depends on the data and validation procedure [@selection_review1; @selection_review2]. Kousar et al. recently combined discretized beluga whale optimization with PLS for complex NIR datasets [@bwo_foods_ref], illustrating the continued interest in spectral subset design.",
+        "This study develops bandwise stability and redundancy selection (BSRS) for predicting total C21 steroidal glycoside equivalents in Baishouwu. BSRS combines resampled PLS coefficient reliability with sign agreement, support from adjacent spectral variables and a soft redundancy penalty. An SPXY partition was used to establish calibration and prediction subsets. Five preprocessing methods were compared, after which BSRS was evaluated against UVE, MC-UVE, RT and an adapted C-value method. The selected wavelengths and component ablations were examined to relate model compactness to the proposed scoring mechanism."
+      ]
+    },
+    {
+      "heading": "2. Theory and Algorithms",
+      "subsections": [
+        {
+          "heading": "2.1. Partial least squares regression",
+          "paragraphs": [
+            "PLS constructs latent variables (LVs) that relate a matrix of spectral variables to the reference response [@pls]. Too few LVs may omit useful covariance, whereas excessive complexity can fit variation that does not support prediction. The present PLS1 implementation mean-centered spectral variables and responses without variable autoscaling. One to ten LVs were considered, subject to training sample and variable dimensions. Preprocessing was selected from full-spectrum PLS by the minimum fivefold calibration RMSECV; the same selected transformation was then used for all variable-selection comparisons.",
+            "Coefficient paths were calculated using the mean-centered PLS1 algorithm. The LV count used to construct resampled coefficient scores was obtained from the preceding full-spectrum calibration stage. It was distinct from the final LV count tuned for a selected subset."
+          ]
+        },
+        {
+          "heading": "2.2. Comparative variable-selection methods",
+          "paragraphs": [
+            "UVE evaluates the reliability of PLS coefficients across leave-one-sample-out fits [@uve]. MC-UVE replaces these fits with repeated subsamples of the training set [@mcuve]. Here, MC-UVE used 100 subsamples targeting 80% of training rows without replacement. Independent Gaussian noise variables were appended at 10−6 times the global training spectral standard deviation. To compare the methods under the same subset-size search, the real spectral variables were ranked by coefficient reliability and the retained prefix size was selected by calibration cross validation. These implementations are denoted UVE rank and MC-UVE rank to distinguish the ranking adaptation from the original elimination rules.",
+            "RT compared observed PLS coefficient magnitudes with those obtained from 199 response permutations [@rt]. The finite-sample tail probability was p_j = (1 + number of permuted magnitudes at least as large as the observed magnitude)/200. Predictors were ordered by increasing probability, with observed magnitude resolving ties. RT was used as a ranking procedure, without a multiple-testing discovery claim.",
+            "The C-value method quantified the error contribution of randomly included predictors. A binary matrix F represented 2p subsets, each containing approximately 70% of the p predictors. Threefold internal validation generated a vector e of optimized PLS RMSECV values. Contribution coefficients were calculated as C = F+e, where + denotes the Moore–Penrose pseudoinverse, and lower values received higher priority. This implementation preserved the supplied error-contribution mechanism but used a reduced random design and a common prefix search; it is therefore termed C-value adapted. Complete settings and code accompany the manuscript [@libpls]."
+          ]
+        },
+        {
+          "heading": "2.3. Bandwise stability and redundancy selection",
+          "paragraphs": [
+            "BSRS combines reproducible coefficient contributions, support from adjacent spectral variables and limited duplication of selected information. Resampling motivates the reliability criterion [@stability1; @stability2]. The resulting score is a heuristic utility, rather than a hypothesis test with false-discovery guarantees. Figure 1 summarizes the ranking and calibration sequence.",
+            "Let X contain n training rows and p preprocessed variables, and let y contain their reference responses. For resample b, n_b = max[L₀ + 3, ceil(0.8n)] rows were drawn without replacement. PLS1 was fitted after centering within the subset, with at most L₀ components. L₀ was selected during the preceding full-spectrum calibration stage. The coefficient vector was reconstructed from the weight matrix W_b, variable loading matrix P_b and response loading vector c_b; + denotes the Moore–Penrose pseudoinverse.",
+            "[EQ:1]",
+            "With B = 100 resamples, β_j^(b) is the coefficient for variable j in resample b. Its empirical mean μ_j represents the central coefficient contribution, and σ_j represents between-subset dispersion. The sample variance uses denominator B − 1.",
+            "[EQ:2]",
+            "Reliability is the absolute mean divided by the sample standard deviation, with a numerical floor ε = 10−14.",
+            "[EQ:3]",
+            "This denominator is not a standard error, and r_j is not interpreted as a t statistic. Directional consistency is assessed separately. Let p_j+ and p_j− denote the observed proportions of positive and negative coefficients; an exactly zero coefficient has sign zero.",
+            "[EQ:4]",
+            "The score s_j is between zero and one. It equals |2p_j+ − 1| only when no coefficient is zero. Since reliability and sign agreement arise from the same coefficient samples, their product is not treated as independent evidence. Initial importance combines them through a concave transformation:",
+            "[EQ:5]",
+            "The natural logarithm limits the marginal influence of very large reliability ratios. Importance decreases when coefficients have a small mean relative to dispersion or frequently change sign. It does not directly measure chemical specificity or expected prediction improvement.",
+            "Neighboring variables are incorporated by fitting a local constant to five adjacent importance values. Let ρ(j + ℓ) reflect indices outside the spectrum into the valid grid. Setting the derivative of the local squared-error objective to zero gives five times the fitted constant equal to the sum of the scores:",
+            "[EQ:6]",
+            "The solution is the five-point arithmetic mean. Reflected boundary extension does not repeat the edge value; the first point is qbar_1 = (q_1 + 2q_2 + 2q_3)/5. This is a local constant least-squares solution, not a global spectral regularization model. For interpolated preprocessing, adjacency refers to the uniform 141-position working grid.",
+            "Redundancy is calculated from centered training columns normalized by their Euclidean norms, with a 10−12 numerical floor. For nonconstant columns whose norms exceed the floor, their inner product is the sample correlation:",
+            "[EQ:7]",
+            "For unit-norm columns z_j and z_k, projection onto one variable gives the following squared residual:",
+            "[EQ:8]",
+            "Thus c_jk² is the fraction of normalized variation explained by that single variable. It does not equal the joint explained variation of the entire selected set. BSRS uses the maximum absolute correlation with selected variables as a bounded redundancy proxy:",
+            "[EQ:9]",
+            "The locally averaged importance is divided by a correlation-inflated cost, with λ fixed at 2:",
+            "[EQ:10]",
+            "The unit baseline retains full importance for an uncorrelated candidate. When 0 ≤ d_j ≤ 1, the merit is between qbar_j/3 and qbar_j, so even perfect correlation does not force exclusion. Starting from S₀ = ∅, the next variable maximizes the merit among unselected variables:",
+            "[EQ:11]",
+            "After each addition, correlations with the new variable update the maximum redundancy of the remaining candidates. Repetition generates an ordered list of all p variables; equal merits are resolved by the first ascending wavelength index. This is a greedy ranking for a changing, set-dependent score, without a claim of globally optimal subset selection.",
+            "The retained prefix size K and final LV count L are tuned jointly. Candidate sizes are the distinct values among 4, 8, 16, 32, 64, 128 and ceil(p/2) that are below p. For p = 141, these are 4, 8, 16, 32, 64, 71 and 128. L ranges from 1 to min(10, K), subject to training dimensions. With V_f the validation rows in fold f, the pooled criterion is:",
+            "[EQ:12]",
+            "Rankings, correlations and data-dependent preprocessing references are rebuilt within the CV training folds. L₀ is obtained from the preceding full-calibration preprocessing stage. The optimized RMSECV is used to select the prefix size and final LV count, while prediction performance is evaluated on the fixed SPXY prediction subset.",
+            "After selecting K and L, the ranking is rebuilt on all 63 calibration samples and PLS is refitted. Let φ_cal denote the frozen preprocessing transformation, and Xbar_cal,S and ybar_cal the training means. Prediction uses these transformations, feature indices and coefficients:",
+            "[EQ:13]",
+            "No ranking is recalculated for prediction samples. Three prespecified ablations remove sign weighting, local smoothing or the redundancy penalty individually. Each variant tunes its own prefix size and LV count using calibration data. Supplementary Table S5 provides the computational settings."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3. Experimental",
+      "subsections": [
+        {
+          "heading": "3.1. Samples and spectral acquisition",
+          "paragraphs": [
+            "Baishouwu roots cultivated for 1–3 years were obtained from Yancheng Guolao Shouwu Technology Co., Ltd., ground, passed through a 1 mm sieve and stored in sealed containers. The experimental record describes diffuse-reflectance NIR measurements using a Si-ware instrument and a polytetrafluoroethylene white reference. Powder was placed in a sample cup and measured three times, with the cup rotated by 120° between readings. The readings were averaged. The nominal spectral range was 1350–2550 nm, with an acquisition time of 2 s and 16 scans.",
+            "The dataset comprised one averaged NIR spectrum per sample. [Confirm the authenticated species and voucher, supplier name, collection/storage dates and instrument model, and verify the acquisition details against the laboratory records.] The experimental record names Cynanchum auriculatum in its main text and Cynanchum bungei in its abstract; Baishouwu is therefore retained as the material designation pending authentication."
+          ]
+        },
+        {
+          "heading": "3.2. Reference determination",
+          "paragraphs": [
+            "C21 steroidal glycoside equivalents were determined by vanillin–sulfuric acid colorimetry. Three parallel 1.0 g powder portions were extracted separately with 15 mL of 80% ethanol in sealed 50 mL centrifuge tubes by sonication for 30 min. After cooling, each extract was filtered and the complete filtrate diluted to 25 mL. An aliquot of 0.08 mL was mixed with 0.42 mL of 80% ethanol and 0.5 mL of 8% vanillin in anhydrous ethanol. Then, 5 mL of 77% sulfuric acid was added in an ice bath. The mixture was held in ice for 15 min, mixed, heated at 70 °C for 15 min, cooled in ice for 15 min and left at room temperature for 30 min. Absorbance was measured at 478 nm.",
+            "The supplied responses were expressed in mg g−1 and used without adjustment. They are reported as source-assigned total glycoside equivalents because the reference standard identity and mass basis require confirmation. [Complete standard purity and supplier, reagent percentage conventions, blank composition, equipment models and the calibration/dilution calculation; verify recovery and assay precision.] The reference-standard preparation, assay calibration and dilution calculation require verification against the original laboratory records."
+          ]
+        },
+        {
+          "heading": "3.3. Dataset and sample partition",
+          "paragraphs": [
+            "The dataset contained 84 samples, each with 141 measured spectral variables and one reference response. Wavelengths ranged from 1348.28 to 2551.98 nm. Spectral columns were ordered by increasing wavelength, with their measurement–wavelength correspondence preserved. No sample was excluded, and the data contained no missing numerical values or duplicate complete spectra. Companion worksheets supplied sample identifiers and response units; the supplied spectral and response values were used without adjustment.",
+            "SPXY was used to assign 63 samples (75%) to calibration and the remaining 21 (25%) to prediction [@spxy]. For each sample pair, the Euclidean distance across the 141 raw spectral variables and the absolute difference in the reference response were calculated. Each distance matrix was divided by its maximum value, and the normalized spectral and response distances were added. The most distant pair initiated the calibration set. Subsequent samples maximized their minimum joint distance to the current calibration samples until 63 samples had been selected. Ties were resolved by the original sample order.",
+            "The partition was fixed before model development. Spectral preprocessing, variable ranking, subset size and LV count were determined using the calibration samples. SPXY uses both spectra and reference responses to construct the partition; the prediction subset consequently represents withheld samples from the same cohort. PCA was fitted to raw calibration spectra and applied to prediction spectra solely to visualize their distribution."
+          ]
+        },
+        {
+          "heading": "3.4. Spectral preprocessing",
+          "paragraphs": [
+            "Untreated spectra were compared with MSC, SNV, CWT and first and second derivatives. MSC fitted each spectrum to the mean training spectrum and corrected its intercept and slope [@msc]; the reference mean was rebuilt within each training fold. SNV centered each spectrum and divided it by its sample standard deviation [@snv].",
+            "Derivative and CWT preprocessing used interpolation to a uniform 141-position grid over the measured endpoints. Savitzky–Golay derivatives used a 15-point window, cubic polynomial, the actual wavelength spacing and mirrored boundaries [@sg]. CWT used a Mexican hat wavelet at scale 10, wavelet integration precision 10 and reflected boundary extension of 40 points at both ends; central coefficients were retained [@cwt]. Selected positions and transformed plots use this working grid. Figure S1 compares the transformed spectra."
+          ]
+        },
+        {
+          "heading": "3.5. Model validation and performance measures",
+          "paragraphs": [
+            "The 21 prediction samples were withheld from preprocessing selection, variable ranking, prefix-size optimization and LV tuning after the SPXY partition was fixed. Fivefold calibration RMSECV determined model settings. All methods used the same sample assignments and calibration folds, and data-dependent preprocessing references and variable rankings were rebuilt within the corresponding CV training folds.",
+            "RMSEC, RMSECV and RMSEP were the square roots of mean squared residuals for fitted calibration, cross validation and prediction, respectively. R² was calculated as one minus the residual sum of squares divided by the within-set total sum of squares. MAE, signed bias, RPD and RPIQ were also reported. RPD divided the prediction-response sample standard deviation by RMSEP, while RPIQ used its interquartile range [@metrics].",
+            "Selection consistency was described by the mean pairwise Jaccard similarity among the five fold-selected variable sets. The statistic measures set overlap and is interpreted together with subset size. Three prespecified BSRS ablations removed sign weighting, local smoothing or the redundancy penalty individually, with each variant tuning its own retained prefix size and LV count on calibration data."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4. Results and Discussion",
+      "subsections": [
+        {
+          "heading": "4.1. Spectra and SPXY sample partition",
+          "paragraphs": [
+            "Figure 2 shows the sample-mean NIR spectra, and Table 1 summarizes the dataset. Each spectrum contains 141 measured variables over 1348.28–2551.98 nm. Overlapping spectral features and differences in the recorded response level support multivariate modeling of the botanical matrix. The recorded signal is expressed in arbitrary units because optical-conversion metadata were not supplied. Reference equivalent contents ranged from 11.14 to 45.13 mg g−1.",
+            "Figure 3 and Table 2 characterize the fixed SPXY partition. The calibration and prediction means were 24.537 and 23.656 mg g−1, with standard deviations of 8.847 and 8.156 mg g−1, respectively. Calibration contents covered 11.14–45.13 mg g−1, whereas prediction contents covered 11.66–38.09 mg g−1. The prediction response range was therefore contained within the calibration range. The spectral and response distances used by SPXY place samples spanning the available joint variation in the calibration subset. Table S1 lists the sample assignments used for every subsequent comparison."
+          ]
+        },
+        {
+          "heading": "4.2. Preprocessing performance",
+          "paragraphs": [
+            "Figure 4 and Table 3 compare full-spectrum PLS after the five preprocessing methods and with untreated spectra. The second derivative gave the lowest tuning RMSECV, 3.863 mg g−1, using five LVs. Untreated spectra required seven LVs and gave RMSECV of 4.234 mg g−1. D2 reduced this tuning error by 8.8% and gave RMSEP of 2.897 mg g−1, compared with 3.164 mg g−1 for untreated spectra.",
+            "MSC and SNV gave similar tuning errors, 3.966 and 3.965 mg g−1, and prediction errors of approximately 3.176 mg g−1. D1 gave RMSEP of 3.001 mg g−1, while CWT gave 3.313 mg g−1. The derivative transformation was thus more effective than the chosen scatter corrections and wavelet setting in the present full-spectrum comparison. The selected preprocessing was retained for every variable-selection comparison on the basis of its calibration RMSECV. The result applies to the specified parameter settings and SPXY partition."
+          ]
+        },
+        {
+          "heading": "4.3. Comparison of prediction models",
+          "paragraphs": [
+            "Figure 5 and Table 4 compare full-spectrum PLS with UVE rank, MC-UVE rank, RT, C-value adapted and BSRS. BSRS achieved the lowest tuning RMSECV, 3.457 mg g−1, with eight variables and three LVs. It was therefore selected on the basis of calibration performance. UVE rank, MC-UVE rank, RT and C-value adapted gave tuning errors of 3.681, 3.686, 3.783 and 3.744 mg g−1, respectively. All five selectors reduced the optimized calibration error relative to the full-spectrum value of 3.863 mg g−1.",
+            "BSRS gave RMSEP of 2.806 mg g−1, compared with 2.897 mg g−1 for full-spectrum PLS. It retained 5.7% of the original variables, corresponding to a 94.3% reduction in model input dimension. RT and MC-UVE rank also retained eight variables and gave RMSEP values of 2.746 and 2.772 mg g−1, respectively; RT had the lowest observed prediction error in the main comparison. UVE rank retained eight variables but gave RMSEP of 3.284 mg g−1, while C-value adapted retained 32 variables and gave 3.178 mg g−1. Calibration and prediction rankings therefore differed. BSRS combined the smallest calibration tuning error with a compact subset and a lower prediction error than the full-spectrum model under this SPXY partition.",
+            "Figure 6 compares reference and predicted equivalent contents for full-spectrum PLS, the MC-UVE rank benchmark and calibration-selected BSRS on identical axes. Their R²p values were 0.868, 0.879 and 0.876, respectively. Full-spectrum PLS, MC-UVE rank and BSRS gave RMSEC values of 3.157, 3.400 and 3.400 mg g−1. Calibration markers represent fitted values and prediction markers represent the 21 withheld samples. The red regression lines are descriptive fits to the plotted pairs, while the dashed identity line denotes exact agreement. Reported R² values were calculated from the original model residuals rather than these display fits. Figure S2 presents prediction residual diagnostics for BSRS, while Table S2 provides additional prediction metrics for all main models."
+          ]
+        },
+        {
+          "heading": "4.4. Selected wavelengths and BSRS components",
+          "paragraphs": [
+            "Figure 7 shows the wavelength distributions retained by the selection methods, and Table S4 lists the BSRS wavelengths. BSRS retained eight variables: five positions at approximately 1614.81, 1709.39, 1812.56, 1993.12 and 2044.71 nm, and three at 2405.82, 2423.01 and 2440.21 nm. UVE rank and MC-UVE rank concentrated more of their eight variables near 1778–1804 and 2414–2440 nm, whereas BSRS included additional positions across the spectrum. The correlation penalty acts as a soft cost, so the retained BSRS subset can still contain neighboring or correlated variables when their importance is sufficiently high. These positions correspond to predictive spectral features on the selected preprocessing grid; their distribution alone does not establish glycoside-specific vibrational assignments.",
+            "Figure S3 and Table S3 summarize coefficient scores and selection consistency. Mean fold Jaccard similarities were 0.560 for UVE rank, 0.515 for MC-UVE rank, 0.707 for RT, 0.295 for C-value adapted and 0.410 for BSRS. RT produced the greatest overlap among its fold-selected sets. BSRS did not give the most consistent set despite using resampled coefficient scores, because the final subsets also depend on correlation updates and calibration-optimized prefix size. The overlap statistic complements the prediction results but does not by itself identify the most accurate method.",
+            "Table 5 and Figure S4 compare complete BSRS with the three component ablations. Complete BSRS gave the lowest ablation tuning RMSECV, 3.457 mg g−1. Removing sign weighting, smoothing or the redundancy penalty increased this value to 3.513, 3.665 and 3.601 mg g−1, respectively. Their prediction RMSEP values were 2.761, 2.625 and 2.900 mg g−1. The variant without smoothing retained four variables and four LVs and gave the lowest observed prediction error among these variants. The other two variants retained eight variables. This difference between calibration and prediction behavior shows that the favorable calibration score of complete BSRS does not imply that every component improves prediction in the withheld subset. Each ablation retained its own calibration-optimized subset and LV count. The comparison describes how the scoring components affect the present calibration and prediction results.",
+            "NIR calibration predicts the supplied colorimetric equivalent response. Overlapping botanical signals may reflect glycosides, correlated carbohydrates, moisture and particle properties, so individual-glycoside selectivity cannot be inferred from the selected wavelengths. The observed performance concerns a fixed partition of one sample cohort. Authenticated new batches and reference-assay verification would support subsequent application under different sample and measurement conditions [@transfer1; @transfer2]."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5. Conclusions",
+      "paragraphs": [
+        "BSRS was developed to combine coefficient reliability, sign consistency, local spectral support and correlation control for NIR prediction of total C21 steroidal glycoside equivalents in Baishouwu. The analysis used 141 measured spectral variables and a fixed SPXY partition of 63 calibration and 21 prediction samples. After D2 preprocessing, BSRS selected eight variables and three LVs, giving the lowest variable-selection tuning RMSECV of 3.457 mg g−1. Its RMSEP was 2.806 mg g−1 with R²p of 0.876, compared with 2.897 mg g−1 for full-spectrum PLS. The 94.3% variable reduction demonstrates substantial spectral compression. RT gave a lower observed prediction RMSEP of 2.746 mg g−1, so BSRS was favorable for calibration-based model selection rather than uniformly best across performance measures. The full program and retained-variable lists provide a reproducible basis for subsequent evaluation with authenticated samples and a verified reference assay."
+      ]
+    }
+  ],
+  "analysis_signature": "b37cc9267a7aa90117748b7553a8e2355f93f2dea3e30bce0d59a17835d02ec3",
+  "input_sha256": "da4e90a61da8fb4b832550925566aedc7be6e4100590b340c3c6e95f330aa44c"
+}

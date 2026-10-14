@@ -1,0 +1,44 @@
+[
+  {
+    "method": "Full",
+    "set": "Calibration",
+    "slope": 0.8705814377281106,
+    "intercept": 3.175500122944595,
+    "purpose": "display only; fit of saved predictions against reference, not a calibration model"
+  },
+  {
+    "method": "MC-UVE",
+    "set": "Calibration",
+    "slope": 0.8499261086472254,
+    "intercept": 3.682313047492581,
+    "purpose": "display only; fit of saved predictions against reference, not a calibration model"
+  },
+  {
+    "method": "BSRS",
+    "set": "Calibration",
+    "slope": 0.849971163443218,
+    "intercept": 3.681207552981569,
+    "purpose": "display only; fit of saved predictions against reference, not a calibration model"
+  },
+  {
+    "method": "Full",
+    "set": "Prediction",
+    "slope": 0.9611370362599976,
+    "intercept": 1.7767830758186105,
+    "purpose": "display only; fit of saved predictions against reference, not a calibration model"
+  },
+  {
+    "method": "MC-UVE",
+    "set": "Prediction",
+    "slope": 0.940866368754458,
+    "intercept": 2.517751310359214,
+    "purpose": "display only; fit of saved predictions against reference, not a calibration model"
+  },
+  {
+    "method": "BSRS",
+    "set": "Prediction",
+    "slope": 0.9505159879883115,
+    "intercept": 2.2055532258125043,
+    "purpose": "display only; fit of saved predictions against reference, not a calibration model"
+  }
+]

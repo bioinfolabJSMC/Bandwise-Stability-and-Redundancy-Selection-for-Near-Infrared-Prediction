@@ -1,0 +1,274 @@
+{
+  "font_paths": {
+    "regular": "C:\\Windows\\Fonts\\times.ttf",
+    "bold": "C:\\Windows\\Fonts\\timesbd.ttf",
+    "italic": "C:\\Windows\\Fonts\\timesi.ttf"
+  },
+  "number_of_figures": 11,
+  "files": [
+    {
+      "file": "Figure_1.png",
+      "pixels": [
+        2580,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "2815ee2f815393e65e181e96645d5149f7f8ab09f0d117b281be62fc23f4a694"
+    },
+    {
+      "file": "Figure_1.tiff",
+      "pixels": [
+        2580,
+        2100
+      ],
+      "dpi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "866ea5b0c6b77354fdd3c9c7ec08a263b31bf6106cae144e2b929152f8b3a954"
+    },
+    {
+      "file": "Figure_2.png",
+      "pixels": [
+        2700,
+        1230
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "0a32a31de73de409876a6d95a71e1f633e4ff7f79700eac664477d3d3d1db47d"
+    },
+    {
+      "file": "Figure_2.tiff",
+      "pixels": [
+        2700,
+        1230
+      ],
+      "dpi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "5361607eaddd7e55d04672c1e4d37cf8807bb197da8fa67df3ca378c38d0a9fb"
+    },
+    {
+      "file": "Figure_3.png",
+      "pixels": [
+        2700,
+        2010
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "84f5b6a3d2ffb5269bbd39ffc990132dd1b2ae104031b6ae284094109be533c1"
+    },
+    {
+      "file": "Figure_3.tiff",
+      "pixels": [
+        2700,
+        2010
+      ],
+      "dpi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "c1d6de3f4ea005d826313d25b33d0212f9027043dfdeb44c21f450599c3dc72a"
+    },
+    {
+      "file": "Figure_4.png",
+      "pixels": [
+        2610,
+        1410
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "c422e91bcc383734339e3589b4ac57b05dca82c8764c1449bc8370a461a97736"
+    },
+    {
+      "file": "Figure_4.tiff",
+      "pixels": [
+        2610,
+        1410
+      ],
+      "dpi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "4a62b16723fab3d13840c39fa8b5cc9daa3199c4b31bd7184b1ddf58c1b838c7"
+    },
+    {
+      "file": "Figure_5.png",
+      "pixels": [
+        2760,
+        1470
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "02184855df2e2db8d30d2a75aac596e80739b04315fd2a3999f86ad6270c8e64"
+    },
+    {
+      "file": "Figure_5.tiff",
+      "pixels": [
+        2760,
+        1470
+      ],
+      "dpi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "e582ff3c0cc7a71608b53f69dd3911b71a7b1596d11185fed72a4ae58d6b2fa9"
+    },
+    {
+      "file": "Figure_6.png",
+      "pixels": [
+        2850,
+        1950
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "85f3f1f63f94277fc7104fc082ed10bec6ee701df830571ee60deb7b6e8f0869"
+    },
+    {
+      "file": "Figure_6.tiff",
+      "pixels": [
+        2850,
+        1950
+      ],
+      "dpi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "37396dbfc27d50ae1a69da7dd1f450ce505162797eba40994f8547d907981588"
+    },
+    {
+      "file": "Figure_7.png",
+      "pixels": [
+        2700,
+        1440
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "373b5184cda2f19dbb8fe98bcf0e38e6e470a1fa7f1ee98e47e62e38e03b5504"
+    },
+    {
+      "file": "Figure_7.tiff",
+      "pixels": [
+        2700,
+        1440
+      ],
+      "dpi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "3772a2f9a6be925014588e551b0ac99a30908f788635c511bfa296a9314c4afb"
+    },
+    {
+      "file": "Figure_S1.png",
+      "pixels": [
+        2700,
+        2130
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "d6862c54be7c2e3bcef6926839c77ef3837fe76145c2a841c45a7042491bbd2f"
+    },
+    {
+      "file": "Figure_S1.tiff",
+      "pixels": [
+        2700,
+        2130
+      ],
+      "dpi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "1f8f040c2f7f287a6d9fe86e60ad988d92188f949c5adbce7ce33302b092fb3c"
+    },
+    {
+      "file": "Figure_S2.png",
+      "pixels": [
+        2700,
+        1290
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "6dec47f60ec6ce3697f244d2c6b9bf7bc94e2998f1b5dc5f7d8c10a654ac0c84"
+    },
+    {
+      "file": "Figure_S2.tiff",
+      "pixels": [
+        2700,
+        1290
+      ],
+      "dpi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "f8c7881a2fe8acc431979cb9acce75a0bf046c4adccea6a044e9c00b41f5b9f1"
+    },
+    {
+      "file": "Figure_S3.png",
+      "pixels": [
+        2700,
+        1800
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "80adefd331e4cc9e696c3dbbe3a1099896e23314d089502c91bba5cb70070808"
+    },
+    {
+      "file": "Figure_S3.tiff",
+      "pixels": [
+        2700,
+        1800
+      ],
+      "dpi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "9277658de7e65758de829de1ad218f5363b014524c12b8f79854e208918e9719"
+    },
+    {
+      "file": "Figure_S4.png",
+      "pixels": [
+        2520,
+        1380
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "ad18623e1c5c465c6e27f553eb44fbd63f6e23218513721b03a7de4e5c7e0914"
+    },
+    {
+      "file": "Figure_S4.tiff",
+      "pixels": [
+        2520,
+        1380
+      ],
+      "dpi": [
+        300.0,
+        300.0
+      ],
+      "sha256": "06d3bf3c771a6aa0fbfe798942e1560542fe032ced26044157cfb1402a03b1b6"
+    }
+  ]
+}

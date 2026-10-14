@@ -1,0 +1,162 @@
+{
+  "authors": [
+    {
+      "name": "Cheng Guo",
+      "given": "Cheng",
+      "family": "Guo",
+      "affiliations": [
+        1
+      ],
+      "corresponding": false
+    },
+    {
+      "name": "Chen Qiu",
+      "given": "Chen",
+      "family": "Qiu",
+      "affiliations": [
+        1
+      ],
+      "corresponding": false
+    },
+    {
+      "name": "Yang Qian",
+      "given": "Yang",
+      "family": "Qian",
+      "affiliations": [
+        1
+      ],
+      "corresponding": false
+    },
+    {
+      "name": "Hongle An",
+      "given": "Hongle",
+      "family": "An",
+      "affiliations": [
+        2
+      ],
+      "corresponding": true,
+      "email": "honglean@sxnu.edu.cn"
+    },
+    {
+      "name": "Mingguang Zhang",
+      "given": "Mingguang",
+      "family": "Zhang",
+      "affiliations": [
+        1
+      ],
+      "corresponding": false
+    },
+    {
+      "name": "Baolin Zhu",
+      "given": "Baolin",
+      "family": "Zhu",
+      "affiliations": [
+        3,
+        4
+      ],
+      "corresponding": true,
+      "email": "zhubaolin@nankai.edu.cn"
+    },
+    {
+      "name": "Cuiyan Han",
+      "given": "Cuiyan",
+      "family": "Han",
+      "affiliations": [
+        1
+      ],
+      "corresponding": true,
+      "email": "hancuiyan@jsmc.edu.cn"
+    }
+  ],
+  "author_line": "Cheng Guo¹, Chen Qiu¹, Yang Qian¹, Hongle An²,*, Mingguang Zhang¹, Baolin Zhu³,⁴,* and Cuiyan Han¹,*",
+  "affiliations": [
+    {
+      "number": 1,
+      "text": "School of Pharmacy, Jiangsu Medical College, Jiangsu 224005, PR China"
+    },
+    {
+      "number": 2,
+      "text": "Key Laboratory of Magnetic Molecules and Magnetic Information Materials (Ministry of Education), College of Chemistry and Chemical Engineering, Shanxi Normal University, Taiyuan 030006, PR China"
+    },
+    {
+      "number": 3,
+      "text": "College of Chemistry, Nankai University, Tianjin 300071, China"
+    },
+    {
+      "number": 4,
+      "text": "National Demonstration Center for Experimental Chemistry Education, Nankai University, Tianjin 300071, China"
+    }
+  ],
+  "correspondence": [
+    {
+      "name": "Hongle An",
+      "initials": "H.A.",
+      "email": "honglean@sxnu.edu.cn"
+    },
+    {
+      "name": "Baolin Zhu",
+      "initials": "B.Z.",
+      "email": "zhubaolin@nankai.edu.cn"
+    },
+    {
+      "name": "Cuiyan Han",
+      "initials": "C.H.",
+      "email": "hancuiyan@jsmc.edu.cn"
+    }
+  ],
+  "correspondence_line": "* Correspondence: honglean@sxnu.edu.cn (H.A.); zhubaolin@nankai.edu.cn (B.Z.); hancuiyan@jsmc.edu.cn (C.H.)",
+  "funding": [
+    {
+      "name_original": "江苏医药职业学院校科研启动经费",
+      "name_english": "Research Start-up Fund of Jiangsu Medical College",
+      "grant": "20246105",
+      "name_status": "Descriptive translation; institution name follows the user's supplied English affiliation"
+    },
+    {
+      "name_original": "Key R&D Program of Yancheng",
+      "name_english": "Key R&D Program of Yancheng",
+      "grant": "YCBE202445",
+      "name_status": "English programme name supplied by the user"
+    },
+    {
+      "name_original": "Natural Science Foundation in Colleges of Jiangsu Province",
+      "name_english": "Natural Science Foundation in Colleges of Jiangsu Province",
+      "grant": "25KJD150006",
+      "name_status": "English programme name supplied by the user"
+    },
+    {
+      "name_original": "2025江苏省科技副总",
+      "name_english": "2025 Jiangsu Province Science and Technology Deputy General Manager Program",
+      "grant": "FZ20251560",
+      "name_status": "Descriptive translation; an official English programme name was not located",
+      "primary_source_url": "https://kxjst.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=ccccdeda67a040b680588b08a32f5f2b.pdf",
+      "verification_note": "Official Chinese notification confirms the 2025 科技副总 scheme. Its eligible posts include deputy general managers and several other technical leadership roles; this translation denotes the programme, not a claim about an author's particular company post."
+    },
+    {
+      "name_original": "2025江苏省产学研合作项目",
+      "name_english": "2025 Jiangsu Province Industry–University–Research Cooperation Program",
+      "grant": "BY20250828",
+      "name_status": "Descriptive translation; an official English programme name was not located",
+      "primary_source_url": "https://kxjst.jiangsu.gov.cn/art/2026/1/22/art_82568_11720415.html",
+      "verification_note": "Official Chinese notification confirms the title 2025年江苏省产学研合作项目. Award number and the authors' funding relationship follow the user's supplied information."
+    },
+    {
+      "name_original": "Fundamental Research Program of Shanxi Province",
+      "name_english": "Fundamental Research Program of Shanxi Province",
+      "grant": "202503021212222",
+      "name_status": "English programme name supplied by the user"
+    }
+  ],
+  "funding_statement": "This research was funded by the Research Start-up Fund of Jiangsu Medical College (20246105), the Key R&D Program of Yancheng (YCBE202445), the Natural Science Foundation in Colleges of Jiangsu Province (25KJD150006), the 2025 Jiangsu Province Science and Technology Deputy General Manager Program (FZ20251560), the 2025 Jiangsu Province Industry–University–Research Cooperation Program (BY20250828), and the Fundamental Research Program of Shanxi Province (202503021212222).",
+  "metadata_provenance": "Author order, affiliations, correspondence emails, funding relationships and award numbers are supplied by the user. Punctuation and spacing have been normalized for publication; institutional names and author order have not been changed.",
+  "unprovided_items": [
+    "Author contribution roles",
+    "Equal contribution designation, if any",
+    "ORCID identifiers",
+    "Corresponding-author telephone numbers, if required"
+  ],
+  "editorial_notes": [
+    "No author contribution roles or equal-contribution claims have been invented.",
+    "The descriptive funding translations should be checked against any English wording on award certificates before submission."
+  ]
+}
